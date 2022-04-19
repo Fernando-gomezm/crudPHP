@@ -36,7 +36,7 @@ if (isset($_POST["crearContacto"])) {
     //Validar si está vacío
     if (empty($nombre) || empty($apellido) || empty($telefono) || empty($email) || empty($categoria)) {
         $error = "Error, algunos campos obligatorios están vacíos";
-        header('Location: crear_contacto.php?error=' . $error);
+        header('Location: index.php?error=' . $error);
     } else {
 
         //Si entra por aquí es por que se puede ingresar el nuevo registro
