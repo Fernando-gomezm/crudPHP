@@ -30,7 +30,7 @@ $contactos = $stmt->fetchAll(PDO::FETCH_OBJ);
     </div>
 </div>
 <div class="col-sm-3 mt-2">
-    <a href="../agenda/index.php" class="btn btn-primary w-100">Nuevo Contacto</a>
+    <a href="index.php" class="btn btn-primary w-100">Nuevo Contacto</a>
 </div>
 <div class="col-sm-6 mt-2">
     <h3>Lista de Contactos</h3>
